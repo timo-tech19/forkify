@@ -1,0 +1,33 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Food application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timo-tech19/forkify.git"
+  },
+  "author": "Timo Heman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timo-tech19/forkify/issues"
+  },
+  "homepage": "https://github.com/timo-tech19/forkify#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
